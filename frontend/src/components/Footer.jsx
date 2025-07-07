@@ -28,9 +28,8 @@ const Footer = () => {
 
         {/* ----- RIGHT Section ------*/}
         <div>
-          <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
-
-          <ul>
+          <p className="text-xl font-medium mb-5 ">GET IN TOUCH</p>
+          <ul className="text-gray-600 flex flex-col gap-2">
             <li>+1-212-456-7890</li>
             <li>mukundmohan22@gmail.com</li>
           </ul>
@@ -38,8 +37,10 @@ const Footer = () => {
       </div>
       {/* ----------- Copyright text ----------- */}
       <div>
-        <hr />
-        <p className="py-5 text-sm text-center">© 2024 All rights reserved | This template is made by Mukund Mohan</p>
+        <hr className=" border-gray-400" />
+        <p className="py-5 text-sm text-center text-gray-600">
+          © 2025 All rights reserved | This template is made by Mukund Mohan
+        </p>
       </div>
     </div>
   );

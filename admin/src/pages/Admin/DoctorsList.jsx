@@ -9,7 +9,6 @@ const DoctorsList = () => {
       getAllDoctors();
     }
   }, [aToken]);
-  console.log("doctors", doctors);
   return (
     <div className="m-5 max-h-[90vh] overflow-y-scroll">
       <h1 className="text-lg font-medium">All Doctors</h1>
@@ -23,7 +22,7 @@ const DoctorsList = () => {
               <div className="flex mt-2 items-center gap-1 text-sm">
                 <input
                   type="checkbox"
-                  checked={item.availble}
+                  checked={item.available}
                   onChange={() => {
                     changeAvailability(item._id);
                   }}

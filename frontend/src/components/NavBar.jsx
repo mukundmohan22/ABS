@@ -36,7 +36,6 @@ const NavBar = () => {
           <div
             className="flex items-center gap-2 cursor-pointer relative"
             onClick={() => {
-              console.log("group setting. men u true");
               setUserMenu(true);
             }}
           >
